@@ -1,0 +1,35 @@
+body{
+    background-color: indigo;
+}
+/*p{  
+    align-content: center;
+    color: #444444;
+    background-color: green;
+    font-size: 50px;
+    font-weight: bolder;
+    font-stretch: expanded;
+
+
+}*/
+
+
+.container{
+    width: 80%;
+    margin: auto;
+
+}
+.box-1{
+    color: gold;
+    background-color: hotpink;
+    font-size: 80 px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration-style: dotted;
+    letter-spacing: .3em ;
+    word-spacing: 2em;
+    margin: 55px;
+    padding: 15px;
+    border: 5px yellow solid;
+
+}

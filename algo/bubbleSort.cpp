@@ -6,10 +6,15 @@ void print(int a[], int n);
 
 int main(){
     int arr[] = {99, 43, 156 ,765, 123, 54, 45, 86};
+<<<<<<< HEAD
     cout << "Given Array :" << endl;
     print(arr, 8);
     bubbleSort(arr, 8);
     cout << "Sorted Array !!!: " << endl;
+=======
+    print(arr, 8);
+    bubbleSort(arr, 8);
+>>>>>>> 6b0e4cb65c5f4f8cb1ec09e85a47e24407d1fd0f
     print(arr, 8);
 
 }

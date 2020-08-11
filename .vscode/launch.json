@@ -5,14 +5,23 @@
     "version": "0.2.0",
     "configurations": [
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6b0e4cb65c5f4f8cb1ec09e85a47e24407d1fd0f
         {
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
+<<<<<<< HEAD
             "program": "${fileDirname}/${fileBasenameNoExtension}",
             "args": [],
             "stopAtEntry": true,
+=======
+            "program": "${workspaceFolder}/a.out",
+            "args": [],
+            "stopAtEntry": false,
+>>>>>>> 6b0e4cb65c5f4f8cb1ec09e85a47e24407d1fd0f
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
@@ -46,7 +55,11 @@
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
             "args": [],
+<<<<<<< HEAD
             "stopAtEntry": true,
+=======
+            "stopAtEntry": false,
+>>>>>>> 6b0e4cb65c5f4f8cb1ec09e85a47e24407d1fd0f
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,

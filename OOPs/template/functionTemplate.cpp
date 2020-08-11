@@ -23,7 +23,10 @@ int main(){
     aswap(a, b, SIZE);
     print(a, SIZE);
     print(b, SIZE);
+<<<<<<< HEAD
     
+=======
+>>>>>>> 6b0e4cb65c5f4f8cb1ec09e85a47e24407d1fd0f
 }
 
 template<typename T>
@@ -37,7 +40,13 @@ template<typename T>
 void aswap(T a[], T b[], int SIZE){
     T temp;
     for(int i =0; i < SIZE; ++i){
+<<<<<<< HEAD
         aswap(a[i], b[i]);
+=======
+        temp  = a[i];
+        a[i] = b[i];
+        b[i] = temp;
+>>>>>>> 6b0e4cb65c5f4f8cb1ec09e85a47e24407d1fd0f
     }
 }
 

@@ -7,19 +7,31 @@ int stacks[MAX_SIZE];
 int TOP= -1;
 
 bool isEmpty(){
+<<<<<<< HEAD
     if(TOP == -1){
          return true;
         cout << "The Stack is Empty \n";
     }
+=======
+    if(TOP == -1) return true;
+    cout << "The Stack is Empty \n";
+>>>>>>> 6b0e4cb65c5f4f8cb1ec09e85a47e24407d1fd0f
     return false;
 }
 
 bool isFull(){
     if(TOP == MAX_SIZE){
+<<<<<<< HEAD
         cout << "The Stack is Full \n";
         return true;
     }
     else{        
+=======
+        return true;
+    }
+    else{
+        cout << "The Stack is Full \n";
+>>>>>>> 6b0e4cb65c5f4f8cb1ec09e85a47e24407d1fd0f
         return false;
     }
 }
@@ -58,6 +70,7 @@ int main(){
     Push(107);
     Push(108);
     Print();
+<<<<<<< HEAD
     Pop();
     Print();
     Pop();
@@ -68,4 +81,6 @@ int main(){
     Print();
     Pop();
     Print();
+=======
+>>>>>>> 6b0e4cb65c5f4f8cb1ec09e85a47e24407d1fd0f
 }

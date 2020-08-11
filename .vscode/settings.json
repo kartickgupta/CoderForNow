@@ -74,6 +74,7 @@
         "typeinfo": "cpp",
         "valarray": "cpp"
     },
+<<<<<<< HEAD
     "python.pythonPath": "/home/kartickgupta/anaconda3/bin/python",
     "better-comments.multilineComments": true,
     "better-comments.highlightPlainText": false,
@@ -110,4 +111,7 @@
             "backgroundColor": "transparent"
         }
     ]
+=======
+    "python.pythonPath": "/home/kartick/anaconda3/bin/python"
+>>>>>>> 6b0e4cb65c5f4f8cb1ec09e85a47e24407d1fd0f
 }

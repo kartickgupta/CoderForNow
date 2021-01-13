@@ -1,5 +1,21 @@
 /*
-    Function to Find the Lowest Common Ancestor in a Binary Tree, Have a look at the tree first (At Last)
+    Function to Find the Lowest Common Ancestor in a Binary Tree, Have a look at the tree
+
+The given tree:
+
+            100
+           /   \      
+          10    110
+          \       \
+          60      120
+                    \
+                     700
+                    /
+                   400
+                  /   \
+                 320   500
+
+
 */
 #include<bits/stdc++.h>
 using namespace std;
@@ -50,20 +66,3 @@ int main(){
     root = Insert(root, 320);
     cout << LCAinBT(root, 320, 60)->data << endl;
 }
-/*
-The given tree:
-
-            100
-           /   \      
-          10    110
-          \       \
-          60      120
-                    \
-                     700
-                    /
-                   400
-                  /   \
-                 320   500
-
-
-*/

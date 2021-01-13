@@ -1,3 +1,20 @@
+/*
+The given tree:
+
+            100
+           /   \      
+          10    110
+          \       \
+          60      120
+                    \
+                     700
+                    /
+                   400
+                  /   \
+                 320   500
+
+
+*/
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -41,20 +58,3 @@ int main(){
     root = Insert(root, 320);
     cout << checkIfBTisBST(root) << endl;
 }
-/*
-The given tree:
-
-            100
-           /   \      
-          10    110
-          \       \
-          60      120
-                    \
-                     700
-                    /
-                   400
-                  /   \
-                 320   500
-
-
-*/

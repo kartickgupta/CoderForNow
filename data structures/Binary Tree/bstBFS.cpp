@@ -1,3 +1,21 @@
+// To implement Breadth First Search in a Binary Search Tree
+/*
+The given tree:
+
+            100
+           /   \      
+          10    110
+          \       \
+          60      120
+                    \
+                     700
+                    /
+                   400
+                  /   \
+                 320   500
+
+
+*/
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -52,20 +70,3 @@ int main(){
     root = Insert(root, 320);
     BFS(root);
 }
-/*
-The given tree:
-
-            100
-           /   \      
-          10    110
-          \       \
-          60      120
-                    \
-                     700
-                    /
-                   400
-                  /   \
-                 320   500
-
-
-*/

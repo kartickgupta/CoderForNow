@@ -1,3 +1,20 @@
+// ! To implement Depth First Search in a Binary Search Tree in all Preorder, Postorder and Inorder Traversal
+/*
+The given tree:
+
+            100
+           /   \      
+          10    110
+          \       \
+          60      120
+                    \
+                     700
+                    /   \
+                   400   800
+                  /   \     \
+                 320   500   920
+
+*/
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -79,19 +96,3 @@ int main(){
     inOrder(root);
     cout << endl;
 }
-/*
-The given tree:
-
-            100
-           /   \      
-          10    110
-          \       \
-          60      120
-                    \
-                     700
-                    /   \
-                   400   800
-                  /   \     \
-                 320   500   920
-
-*/

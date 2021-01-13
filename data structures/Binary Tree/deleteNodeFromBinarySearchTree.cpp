@@ -10,6 +10,22 @@
     * Find Inorder Successor or Minimum value in RST of current-root takes its place and then again apply DeleteNode on that node containing the minimum value
 
 */
+/*
+The given tree:
+
+            100
+           /   \      
+          10    110
+          \       \
+          60      120
+                    \
+                     700
+                    /   \
+                   400   800
+                  /   \     \
+                 320   500   920
+
+*/
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -96,19 +112,3 @@ int main(){
     inOrder(root);
     cout << endl;
 }
-/*
-The given tree:
-
-            100
-           /   \      
-          10    110
-          \       \
-          60      120
-                    \
-                     700
-                    /   \
-                   400   800
-                  /   \     \
-                 320   500   920
-
-*/

@@ -1,3 +1,22 @@
+// To Search a node of a given value in a Binary Search Tree
+// Output 1- Present, 0 - Absent
+/*
+The given tree:
+
+            100
+           /   \      
+          10    110
+          \       \
+          60      120
+                    \
+                     700
+                    /
+                   400
+                  /   \
+                 320   500
+
+
+*/
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -46,20 +65,3 @@ int main(){
     cout << Search(root, 220) << endl;
 }
 
-/*
-The given tree:
-
-            100
-           /   \      
-          10    110
-          \       \
-          60      120
-                    \
-                     700
-                    /
-                   400
-                  /   \
-                 320   500
-
-
-*/

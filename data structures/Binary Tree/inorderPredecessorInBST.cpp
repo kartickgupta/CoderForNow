@@ -8,6 +8,22 @@
     ? THAT LAST ANCSETOR IS THE ANSWER i.e. Predecessor
 
 */
+/*
+The given tree:
+
+            100
+           /   \      
+          10    110
+          \       \
+          60      120
+                    \
+                     700
+                    /   \
+                   400   800
+                  /   \     \
+                 320   500   920
+
+*/
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -83,19 +99,3 @@ int main(){
     root = Insert(root, 920);
     cout << inorderPredecessor(root, 120)->data << endl;
 }
-/*
-The given tree:
-
-            100
-           /   \      
-          10    110
-          \       \
-          60      120
-                    \
-                     700
-                    /   \
-                   400   800
-                  /   \     \
-                 320   500   920
-
-*/
